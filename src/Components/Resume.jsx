@@ -17,10 +17,17 @@ class Resume extends Component {
                     <p>{work.description}</p>
                 </div>
             })
-            var skills = this.props.data.skills.map(function (skills) {
-                var className = 'bar-expand ' + skills.name.toLowerCase();
-                return <li key={skills.name}><span style={{width: skills.level}}
-                                                   className={className}/><em>{skills.name}</em></li>
+            var skills = this.props.data.skills.map(function(skills){
+                var projectImage = 'images/tech/'+skills.image;
+                return <div className="row">
+                    <div className="three columns">
+                        <img className='skill' src={projectImage} alt={skills.name}/>
+                    </div>
+                    <div className="nine columns main-col">
+                        <h5>{skills.name}</h5>
+                        <p>{skills.description}</p>
+                    </div>
+                </div>
             })
         }
 

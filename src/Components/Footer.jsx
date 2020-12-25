@@ -4,9 +4,11 @@ import {Link} from "react-scroll";
 class Footer extends Component {
     render() {
 
+        let networks;
         if (this.props.data) {
-            var networks = this.props.data.social.map(function (network) {
-                return <li key={network.name}><a href={network.url}><i className={network.className}/></a></li>
+            networks = this.props.data.social.map(function (network) {
+                return <li key={network.name}><a target="_blank" rel="noopener noreferrer" href={network.url}><i
+                    className={network.className}/></a></li>
             })
         }
 

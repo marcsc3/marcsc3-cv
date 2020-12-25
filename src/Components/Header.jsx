@@ -8,12 +8,13 @@ class Header extends Component {
 
     render() {
 
+        let name, occupation, description, city, networks;
         if (this.props.data) {
-            var name = this.props.data.name;
-            var occupation = this.props.data.occupation;
-            var description = this.props.data.description;
-            var city = this.props.data.address.city;
-            var networks = this.props.data.social.map(function (network) {
+            name = this.props.data.name;
+            occupation = this.props.data.occupation;
+            description = this.props.data.description;
+            city = this.props.data.address.city;
+            networks = this.props.data.social.map(function (network) {
                 return <li key={network.name}><a target="_blank" rel="noopener noreferrer" href={network.url}><i
                     className={network.className}/></a></li>
             })

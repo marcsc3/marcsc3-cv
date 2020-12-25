@@ -4,19 +4,20 @@ import {Waypoint} from "react-waypoint";
 
 class About extends Component {
 
+
     render() {
 
+        let name, profilepic, bio, street, city, state, zip, phone, email;
         if (this.props.data) {
-            var name = this.props.data.fullname;
-            var profilepic = "images/" + this.props.data.image;
-            var bio = this.props.data.bio;
-            var street = this.props.data.address.street;
-            var city = this.props.data.address.city;
-            var state = this.props.data.address.state;
-            var zip = this.props.data.address.zip;
-            var phone = this.props.data.phone;
-            var email = this.props.data.email;
-            var resumeDownload = this.props.data.resumedownload;
+            name = this.props.data.fullname;
+            profilepic = "images/" + this.props.data.image;
+            bio = this.props.data.bio;
+            street = this.props.data.address.street;
+            city = this.props.data.address.city;
+            state = this.props.data.address.state;
+            zip = this.props.data.address.zip;
+            phone = this.props.data.phone;
+            email = this.props.data.email;
         }
 
         return (
