@@ -61,14 +61,17 @@
     "skills":[
       {
         "name":"Git",
+        "desc": "Hola",
         "level":"60%"
       },
       {
         "name":"ReactJs",
+        "desc": "2yr exp",
         "level":"50%"
       },
       {
         "name":"MongoDB",
+        "desc": "mongoengine",
         "level":"80%"
       }
     ]

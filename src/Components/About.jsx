@@ -22,7 +22,7 @@ class About extends Component {
         return (
             <section id="about">
                 <Waypoint
-                    bottomOffset="-50px"
+                    bottomOffset="-100px"
                     onEnter={() => this.props.setTransparent()}
                     onLeave={() => this.props.setOpaque()}
                 />
@@ -44,12 +44,6 @@ class About extends Component {
                    </span><br/>
                                     <span>{phone}</span><br/>
                                     <span>{email}</span>
-                                </p>
-                            </div>
-                            <div className="columns download">
-                                <p>
-                                    <a href={resumeDownload} className="button"><i className="fa fa-download"/>Download
-                                        Resume</a>
                                 </p>
                             </div>
                         </div>

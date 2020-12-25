@@ -670,17 +670,17 @@ properly.
    [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
 
    /* Offsets */
-   .row .offset-1    { margin-left: 0%; }
-   .row .offset-2    { margin-left: 0%; }
-   .row .offset-3    { margin-left: 0%; }
-   .row .offset-4    { margin-left: 0%; }
-   .row .offset-5    { margin-left: 0%; }
-   .row .offset-6    { margin-left: 0%; }
-   .row .offset-7    { margin-left: 0%; }
-   .row .offset-8    { margin-left: 0%; }
-   .row .offset-9    { margin-left: 0%; }
-   .row .offset-10   { margin-left: 0%; }
-   .row .offset-11   { margin-left: 0%; }
+   .row .offset-1    { margin-left: 0; }
+   .row .offset-2    { margin-left: 0; }
+   .row .offset-3    { margin-left: 0; }
+   .row .offset-4    { margin-left: 0; }
+   .row .offset-5    { margin-left: 0; }
+   .row .offset-6    { margin-left: 0; }
+   .row .offset-7    { margin-left: 0; }
+   .row .offset-8    { margin-left: 0; }
+   .row .offset-9    { margin-left: 0; }
+   .row .offset-10   { margin-left: 0; }
+   .row .offset-11   { margin-left: 0; }
 }
 
 /* mobile narrow

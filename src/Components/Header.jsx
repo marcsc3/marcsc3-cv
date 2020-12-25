@@ -3,7 +3,6 @@ import {Link} from 'react-scroll'
 import {Waypoint} from "react-waypoint";
 import {connect} from "react-redux";
 
-
 class Header extends Component {
 
 
@@ -34,22 +33,17 @@ class Header extends Component {
 
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                     <a className="mobile-btn" href="#nav" title="Hide navigation">Hide navigation</a>
-
                     <ul id="nav" className="nav">
-                        <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeclassname="current" activeClass="active"
+                        <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeClass="active"
                                   to="home"
-                                  spy={true} smooth={true} duration={750}>Home</Link></li>
-                        <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeclassname="current" activeClass="active"
+                                  spy={true} smooth={true} duration={1000}>Home</Link></li>
+                        <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeClass="active"
                                   to="about"
                                   spy={true} smooth={true} duration={750}>About</Link></li>
-                        <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeclassname="current" activeClass="active"
+                        <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeClass="active"
                                   to="resume"
                                   spy={true} smooth={true} duration={750}>Resume</Link></li>
-                        <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeclassname="current" activeClass="active"
-                                  to="portfolio"
-                                  spy={true} smooth={true} duration={750}>works</Link></li>
                     </ul>
-
 
                 </nav>
 
