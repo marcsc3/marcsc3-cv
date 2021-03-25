@@ -2,21 +2,20 @@
   "main": {
     "name":"Marc",
     "fullname":"Marc Soler i Colomer",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "occupation":"Software Engineering Student",
+    "description":"pursuing the last year of my Bachelor's in Computer Science with a Software Engineering speciality while I'm working as Full Stack developer.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"Software engineering student with almost 2 years of experience as a Full Stack developer. Eager to continue building my professional career, based on teamwork, adaptability, and constant learning as key ingredients. Open to new challenges and opportunities.",
     "email": "m@soler-colomer.com",
-    "phone": "689 492 659",
+    "phone": "+34 689 492 659",
     "address":{
-      "street":"c/ Sant Raimon de Penyafort, 9",
+      "street":"c/ Sant Raimond de Penyafort, 9",
       "city":"Arenys de Mar",
       "state":"Barcelona",
       "zip": "08350"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "",
+    "resumedownload":"https://drive.google.com/uc?id=1JXXbBl67oJmIURrKfckYJ40vRt6txSwc&authuser=0&export=download",
     "social":[
       {
         "name":"twitter",
@@ -25,7 +24,7 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/marc-soler-colomer-b4a186141/",
+        "url":"https://www.linkedin.com/in/marc-soler-colomer/",
         "className":"fa fa-linkedin"
       },
       {
@@ -41,13 +40,14 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
-        "school":"Universitat Politècnica de Catalunya",
+        "school":"UPC - Universitat Politècnica de Catalunya",
         "degree":"Computer Science",
-        "graduated":"September 2017 - January 2022",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"Expected December 2021",
+        "description":""
+
       }
     ],
     "work":[
@@ -55,43 +55,46 @@
         "company":"Inlab FIB",
         "title":"Full Stack developer",
         "years":"June 2019 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "duty1": "• Designing and developing REST APIs.",
+        "duty2": "• Developing front end website architecture.",
+        "duty3": "• Designing user interactions on web pages.",
+        "duty4": "• Meeting both technical and consumer needs."
       }
     ],
     "skills":[
       {
         "name":"Git",
-        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "description":"I use Git's version control in all of my projects. I think that's essential, whether working alone or as team.",
         "image":"git.png"
       },
       {
-        "name":"Java",
-        "description":"Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
-        "image":"java.png"
-      },
-      {
         "name":"Django",
-        "description":"Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "description":"I have been using Django, along with Django REST Framework, to create REST APIs over the last year. I have also worked with token authentication, custom users and Django admin.",
         "image":"django.png"
       },
       {
-        "name":"React Js",
-        "description":"I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "name":"Java",
+        "description":"I have used Java in college courses to apply object-oriented programming, design patterns, and TDDs. Also some basic concepts of reflection.",
+        "image":"java.png"
+      },
+      {
+        "name":"React.js",
+        "description":"React is the Javascript Framework that I found most interesting and with which I am most eager to continue learning. I’ve been using it for almost two years in my current job project, and I’ve also used it in college projects and to do this resume.",
         "image":"react.png"
       },
       {
         "name":"Redux",
-        "description":"I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "description":"I have always used Redux in my projects with React. I am constantly trying to learn Redux’s best strategies and good practices.",
         "image":"redux.png"
       },
       {
         "name":"MongoDB",
-        "description":"I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "description":"I’ve been lucky to work with a NoSQL database such as MongoDB, considering that it’s not studied in depth in college. I found it very interesting, and I'm looking forward to discovering this schemeless world.",
         "image":"mongodb.png"
       },
       {
         "name":"Others",
-        "description":"I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "description":"Other programming languages or technologies with which I have had some experience are C++, Python scripts, Ruby on Rails REST API, among others ... And currently, I am interested in getting into mobile development, for example, Kotlin.",
         "image":"others.png"
       }
     ]

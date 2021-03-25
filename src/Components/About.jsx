@@ -32,7 +32,12 @@ class About extends Component {
                                             {this.props.data.address.city}, {this.props.data.address.zip}, {this.props.data.address.state}
                        </span><br/>
                                         <span>{this.props.data.phone}</span><br/>
-                                        <span>{this.props.data.email}</span>
+                                        <span><a href="mailto:m@soler-colomer.com">{this.props.data.email}</a></span>
+                                    </p>
+                                </div>
+                                <div className="columns download">
+                                    <p>
+                                        <a href="/marcsc-resume.pdf" download className="button"><i className="fa fa-download"/>Download Resume</a>
                                     </p>
                                 </div>
                             </div>

@@ -20,8 +20,6 @@ class Header extends Component {
                     />
                     <nav id="nav-wrap" className={[visible, opaque].join(" ")}>
 
-                        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-                        <a className="mobile-btn" href="#nav" title="Hide navigation">Hide navigation</a>
                         <ul id="nav" className="nav">
                             <li><Link style={{cursor: this.props.visible ? "pointer" : "default"}} activeClass="active"
                                       to="home"
@@ -33,18 +31,18 @@ class Header extends Component {
                                       to="resume"
                                       spy={true} smooth={true} duration={750}>Resume</Link></li>
                         </ul>
-
                     </nav>
 
                     <div className="row banner">
 
                         <div className="banner-text">
-                            <h1 className="responsive-headline">I'm {this.props.data.name}.</h1>
-                            <h3>I'm a {this.props.data.address.city} based <span>{this.props.data.occupation}</span>. {this.props.data.description}.</h3>
+                            <h1 className="responsive-headline">This is {this.props.data.name}.</h1>
+                            <h3>I'm a <span>{this.props.data.occupation}</span> {this.props.data.description}</h3>
                             <hr/>
                             <ul className="social">
                                 {this.props.data.social.map(network => {
-                                    return <li key={network.name}><a target="_blank" rel="noopener noreferrer" href={network.url}><i
+                                    return <li key={network.name}><a target="_blank" rel="noopener noreferrer"
+                                                                     href={network.url}><i
                                         className={network.className}/></a></li>
                                 })}
                             </ul>
@@ -58,8 +56,7 @@ class Header extends Component {
 
                 </header>
             );
-        }
-        else return (<div/>);
+        } else return (<div/>);
     }
 }
 

@@ -37,14 +37,21 @@ class Resume extends Component {
                                 return <div key={work.company}><h3>{work.company}</h3>
                                     <p className="info">{work.title}<span>&bull;</span> <em
                                         className="date">{work.years}</em></p>
-                                    <p>{work.description}</p>
+                                    <p>
+                                        {work.duty1}
+                                        <br/>
+                                        {work.duty2}
+                                        <br/>
+                                        {work.duty3}
+                                        <br/>
+                                        {work.duty4}
+                                    </p>
                                 </div>
                             })}
                         </div>
                     </div>
 
                     <div className="row skill">
-
                         <div className="three columns header-col">
                             <h1><span>Skills</span></h1>
                         </div>
@@ -61,10 +68,11 @@ class Resume extends Component {
                                                 <img className='skill' src={`images/tech/${skills.image}`}
                                                      alt={skills.name}/>
                                             </div>
-                                            <div className="nine columns main-col">
+                                            <div className="nine columns header-col">
                                                 <h5>{skills.name}</h5>
                                                 <p>{skills.description}</p>
                                             </div>
+
                                         </div>
                                     })}
                                 </ul>
