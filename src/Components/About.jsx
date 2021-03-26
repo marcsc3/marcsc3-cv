@@ -28,16 +28,14 @@ class About extends Component {
                                     <h2>Contact Details</h2>
                                     <p className="address">
                                         <span>{this.props.data.fullname}</span><br/>
-                                        <span>{this.props.data.address.street}<br/>
-                                            {this.props.data.address.city}, {this.props.data.address.zip}, {this.props.data.address.state}
-                       </span><br/>
+                                        <span>{this.props.data.address.state}</span><br/>
                                         <span>{this.props.data.phone}</span><br/>
                                         <span><a href="mailto:m@soler-colomer.com">{this.props.data.email}</a></span>
                                     </p>
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href="/marcsc-resume.pdf" download className="button"><i className="fa fa-download"/>Download Resume</a>
+                                        <a href="/marcsc-resume-website.pdf" download className="button"><i className="fa fa-download"/>Download Resume</a>
                                     </p>
                                 </div>
                             </div>

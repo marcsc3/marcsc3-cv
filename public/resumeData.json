@@ -9,28 +9,18 @@
     "email": "m@soler-colomer.com",
     "phone": "+34 689 492 659",
     "address":{
-      "street":"c/ Sant Raimond de Penyafort, 9",
-      "city":"Arenys de Mar",
+      "street":"",
+      "city":"",
       "state":"Barcelona",
-      "zip": "08350"
+      "zip": ""
     },
     "website": "",
     "resumedownload":"https://drive.google.com/uc?id=1JXXbBl67oJmIURrKfckYJ40vRt6txSwc&authuser=0&export=download",
     "social":[
       {
-        "name":"twitter",
-        "url":"https://twitter.com/marcsc3_",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/marc-soler-colomer/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"https://instagram.com/_marcsoler",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
