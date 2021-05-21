@@ -29,7 +29,6 @@ class About extends Component {
                                     <p className="address">
                                         <span>{this.props.data.fullname}</span><br/>
                                         <span>{this.props.data.address.state}</span><br/>
-                                        <span>{this.props.data.phone}</span><br/>
                                         <span><a href="mailto:m@soler-colomer.com">{this.props.data.email}</a></span>
                                     </p>
                                 </div>
